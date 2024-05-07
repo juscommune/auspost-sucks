@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    background-color: #F5F4F3;
+}
+
+h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+    line-height: 2em;
+}
+
+h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+
+p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    color: #393939;
+}
+
+button{
+    background-color: #b50000;
+    color: #f5f4f3;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 30px;
+    font-style: 600;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.semi-bold{
+    font-weight: 600;
+}
+
+.logo{
+    margin-top: 7px;
+    height: 80%;
+}
+
+.header{
+    padding: 20px 140px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.145);
+    height: 60px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.hero-section{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 60px;
+    padding: 180px 140px 140px 140px;
+}
+
+.business-logo{
+    width: 90%;
+}
+
+strong{
+    font-weight: 500;
+    color: black;
+}
+
+.hero-button{
+    margin-top: 40px;
+    padding: 16px 30px;
+}
+
+button:hover{
+    background-color: #c51313;
+}
+
+button:active{
+    background-color: #e03838;
+}
+
+.banner{
+    background-color: #b50000;
+    color: #f5f4f3;
+    padding: 60px 140px;
+}
+
+footer{
+    padding: 40px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;    
+    width: 30%;
+}
+
