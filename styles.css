@@ -16,7 +16,7 @@ h2{
     font-weight: 600;
     font-style: normal;
     font-size: 2.5em;
-    line-height: 2em;
+    margin-bottom: 0.5em;
 }
 
 h3{
@@ -37,9 +37,23 @@ p{
     color: #393939;
 }
 
-button{
+.p1{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.8em;
+    line-height: 140%;
+    color: #393939b0;
+}
+
+a.button{
     background-color: #b50000;
     color: #f5f4f3;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1em;
+    text-decoration: none;
     border: none;
     border-radius: 8px;
     padding: 16px 30px;
@@ -48,13 +62,25 @@ button{
     cursor: pointer;
 }
 
+
 .semi-bold{
+    font-family: "Lato", sans-serif;
     font-weight: 600;
+    font-style: normal;
+    font-size: 1em;
+    color: #393939;
+    text-decoration: none;
+}
+
+.semi-bold:hover{
+    color: #b50000;
+    cursor: pointer;
 }
 
 .logo{
-    margin-top: 7px;
-    height: 80%;
+    min-width: 50px;
+    max-width: 180px;
+    margin-right: 20px;
 }
 
 .header{
@@ -62,30 +88,38 @@ button{
     display: flex;
     justify-content: space-between;
     background-color: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.145);
-    height: 60px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
 }
 
+.left-section{
+    width: 20%;
+    display: flex;
+}
+
 .right-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 600px;
+    width: 700px;
 }
 
 .hero-section{
     display: grid;
     grid-template-columns: 2fr 3fr;
-    column-gap: 60px;
+    column-gap: 80px;
     padding: 180px 140px 140px 140px;
 }
 
 .business-logo{
-    width: 90%;
+    margin: 20px 0 20px 0;
+    background-color: white;
+    border-radius: 16px;
+    padding: 10%;
+    box-shadow: 0 0 20px #00000010;
 }
 
 strong{
@@ -93,16 +127,11 @@ strong{
     color: black;
 }
 
-.hero-button{
-    margin-top: 40px;
-    padding: 16px 30px;
-}
-
-button:hover{
+a.button:hover{
     background-color: #c51313;
 }
 
-button:active{
+a.button:active{
     background-color: #e03838;
 }
 
@@ -122,6 +151,6 @@ footer{
 .footer-links{
     display: flex;
     justify-content: space-between;    
-    width: 30%;
+    width: 20%;
 }
 
