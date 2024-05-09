@@ -57,9 +57,9 @@ a.button{
     border: none;
     border-radius: 8px;
     padding: 16px 30px;
-    font-style: 600;
     font-size: 1em;
     cursor: pointer;
+    text-align: center;
 }
 
 
@@ -78,21 +78,24 @@ a.button{
 }
 
 .logo{
-    min-width: 50px;
+    min-width: 100px;
     max-width: 180px;
     margin-right: 20px;
 }
 
 .header{
-    padding: 20px 140px;
+    padding: 20px 8%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 2em 2em;
     justify-content: space-between;
     background-color: white;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.12);
-    position: fixed;
+    top: 0;
     left: 0;
     right: 0;
-    top: 0;
+    position: fixed;
+    z-index: 100;
 }
 
 .left-section{
@@ -102,6 +105,8 @@ a.button{
 
 .right-section{
     display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em 2em;
     justify-content: space-between;
     align-items: center;
     width: 700px;
@@ -109,13 +114,13 @@ a.button{
 
 .hero-section{
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
     column-gap: 80px;
-    padding: 180px 140px 140px 140px;
+    padding: 10rem 8%;
 }
 
 .business-logo{
-    margin: 20px 0 20px 0;
+    margin: 3rem 0 1rem 0;
     background-color: white;
     border-radius: 16px;
     padding: 10%;
@@ -138,19 +143,24 @@ a.button:active{
 .banner{
     background-color: #b50000;
     color: #f5f4f3;
-    padding: 60px 140px;
+    padding: 60px 8%;
+    left: 0;
+    right: 0;
 }
 
 footer{
-    padding: 40px 140px;
+    padding: 40px 8%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem 3rem;
     justify-content: space-between;
     align-items: center;
 }
 
 .footer-links{
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 4rem;
     justify-content: space-between;    
-    width: 20%;
 }
 
