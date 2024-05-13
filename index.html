@@ -3,6 +3,7 @@
 <head>
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
+    <script src="nav.js" defer></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +19,46 @@
 
 </head>
 <body>
+    <!-- primary header -->
+    <header class="primary-header flex">
+        <div>
+            <img src="images/you-suck-horizontal.svg" class="logo" alt="">
+        </div>
+
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"> 
+            <span class="sr-only">Menu</span>
+        </button>
+
+        <nav>
+            <ul id="primary-navigation" class="primary-navigation flex" data-visible="false">
+                <li>
+                    <a class="semi-bold" href="https://businesses.exposed/" target="_blank">Businesses</a>
+                </li>
+
+                <li>
+                    <a class="semi-bold" href="https://products.exposed/" target="_blank">Products</a>
+                </li>
+
+                <li>
+                    <a class="semi-bold" href="https://serviceproviders.exposed/" target="_blank">Services</a>
+                </li>
+
+                <li>
+                    <a class="semi-bold" href="https://allthe.exposed/memberlist.php?mode=contactadmin" target="_blank">Contact</a>
+                </li>
+
+                <li>
+                    <a class="button" href="https://allthe.exposed/" target="_blank">Share Your Experience</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- header
     <header class="header">
         <div class="left-section">
-            <img class="logo" src="images/you-suck-logo.svg" alt="">
+            <img class="logo" src="images/you-suck-horizontal.svg" alt="">
         </div>
 
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"> 
@@ -38,6 +76,8 @@
         </div>
     </header>
 
+     -->
+
 <!-- Hero Section -->
     <section class="hero-section">
 
@@ -52,7 +92,7 @@
         <!-- Right Section -->
         <div class="hero-text">
             <h1>Australia Post Sucks</h1>
-            <h3>Australia Post...</h3>
+            <h2>Australia Post...</h2>
             <p>has constant problems misplacing or losing mail or parcels, so:</p>
             <p><strong>Australia Post</strong> will frustrate and annoy you, and as a result:</p>
             <p><strong>Australia Post</strong> will upset your business customers who will leave you negative feedback, and:</p>
