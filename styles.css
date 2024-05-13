@@ -106,38 +106,12 @@ a.button{
 }
 
 
-@media (max-width: 1100px) {
-    .header{
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        flex-direction: column;
-        padding: 2rem;
-        justify-content: flex-start;
-        z-index: 1000;
-        border-bottom: solid 2px #b50000;
-
-        /*
-        transform: translatey(-100%);*/
-    }
-
-    .right-section{
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 3em 3em;
-    }
-    .left-section{
-        margin: 3em;
-    }
-}
-
-
 .hero-section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
     column-gap: 80px;
-    padding: 10rem 8%;
+    padding: 6rem 8%;
+    margin-top: 60px;
 }
 
 .business-logo{
@@ -265,6 +239,10 @@ footer{
 
     .mobile-nav-toggle[aria-expanded='true'] {
         background-image: url(images/close_24dp_FILL0_wght400_GRAD0_opsz24.svg);
+    }
+
+    .hero-section{
+        padding: 3rem 8%;
     }
 }
 
