@@ -7,25 +7,16 @@ h1{
     font-family: "Lato", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 3em;
+    font-size: 2rem;
     margin-bottom: 30px;
 }
 
 h2{
     font-family: "Lato", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 2.5em;
-    margin-bottom: 0.5em;
-}
-
-h3{
-    font-family: "Lato", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 2em;
-    margin: 0;
-    margin-bottom: 16px;
+    font-size: 1.75rem;
+    margin-bottom: 0.5em;
 }
 
 
@@ -33,7 +24,7 @@ p{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1em;
+    font-size: 1.2rem;
     color: #393939;
 }
 
@@ -41,7 +32,7 @@ p{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 1rem;
     line-height: 140%;
     color: #393939b0;
 }
@@ -50,9 +41,9 @@ a.button{
     background-color: #b50000;
     color: #f5f4f3;
     font-family: "Lato", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
-    font-size: 1em;
+    font-size: 1.2em;
     text-decoration: none;
     border: none;
     border-radius: 8px;
