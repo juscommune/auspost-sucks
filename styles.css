@@ -24,22 +24,51 @@ h2{
     margin-bottom: 0.5em;
 }
 
+h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-bottom: 0.5em;
+}
+
 
 p{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
     color: #393939;
 }
 
-.p1{
+.list-text{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #393939;
+    margin-bottom: 12px;
+}
+
+.small-italic{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: italic;
     font-size: 1rem;
     line-height: 140%;
     color: #393939b0;
+}
+
+.small-text{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+    color: #393939;
+    margin-bottom: 12px;
+
 }
 
 a.button{
@@ -108,7 +137,7 @@ a.button{
 
 .hero-section{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(460px, 2fr));
     column-gap: 80px;
     padding: 6rem 8%;
     margin-top: 60px;
@@ -160,6 +189,16 @@ footer{
 }
 
 
+.exposed-section{
+    padding: 3rem 8%;
+    background-color: white;
+}
+
+.columns-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+    column-gap: 80px;
+}
 
 
 
@@ -221,7 +260,6 @@ footer{
 
     .primary-navigation[data-visible="true"]{
         transform: translatey(0%);
-
     }
 
     .mobile-nav-toggle{
@@ -242,6 +280,10 @@ footer{
     }
 
     .hero-section{
+        padding: 3rem 8%;
+    }
+
+    .exposed-section{
         padding: 3rem 8%;
     }
 }
