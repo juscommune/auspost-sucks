@@ -137,7 +137,7 @@ a.button{
 
 .hero-section{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(460px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
     column-gap: 80px;
     padding: 6rem 8%;
     margin-top: 60px;
@@ -196,7 +196,7 @@ footer{
 
 .columns-section{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
     column-gap: 80px;
 }
 
